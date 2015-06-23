@@ -1,5 +1,5 @@
 """ These are the functions developed in the Practice Makes Perfect Module @ Codecademy """
-""" Exercises completed thus far: 2/15; 3/15; 4/15; 6/15; 8/15 """
+""" Exercises completed thus far: 2/15; 3/15; 4/15; 6/15; 8/15; 13/15; 15/15 """
 
 """ Exercise 2/15 """
 def is_even(x):
@@ -48,3 +48,34 @@ def anti_vowel(text):
         if c not in "aeiouAEIOU":
             t += c
     return t
+
+""" Exercise 9/15 """
+
+""" Exercise 10/15 """
+
+""" Exercise 11/15 """
+
+""" Exercise 12/15 """
+
+""" Exercise 13/15 """
+def product(x):
+    product = 1
+    for number in x:
+        product = product * number
+    return product
+
+""" Exercise 14/15 """
+
+""" Exercise 15/15 """
+def median(x):
+    sort = sorted(x)
+    if len(sort) % 2 != 0:
+        a = len(sort) - ((len(sort)-1)/2)
+        return sort[(a-1)]
+    else:
+        b = (len(sort))/2
+        c = b + 1
+        d = (sort[(b-1)]+sort[(c-1)])
+        e = float(d)
+        f = e/2
+        return f
