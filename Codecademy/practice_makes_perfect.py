@@ -1,5 +1,5 @@
 """ These are the functions developed in the Practice Makes Perfect Module @ Codecademy """
-""" Exercises completed thus far: 2/15; 3/15; 4/15; 6/15; 8/15; 13/15; 15/15 """
+""" Exercises completed thus far: 2/15; 3/15; 4/15; 6/15; 8/15; 11/15; 13/15; 15/15 """
 
 """ Exercise 2/15 """
 def is_even(x):
@@ -54,6 +54,16 @@ def anti_vowel(text):
 """ Exercise 10/15 """
 
 """ Exercise 11/15 """
+def count(sequence,item):
+    count = 0
+    index = 0
+    for s in sequence:
+        if sequence[index] == item:
+            count = count + 1
+            index = index + 1
+        else:
+            index = index + 1
+    return count
 
 """ Exercise 12/15 """
 
