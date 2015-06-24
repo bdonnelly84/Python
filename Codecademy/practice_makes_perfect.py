@@ -59,10 +59,10 @@ def count(sequence,item):
     index = 0
     for s in sequence:
         if sequence[index] == item:
-            count = count + 1
-            index = index + 1
+            count += 1
+            index += 1
         else:
-            index = index + 1
+            index += 1
     return count
 
 """ Exercise 12/15 """
