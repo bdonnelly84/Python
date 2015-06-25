@@ -52,6 +52,18 @@ def anti_vowel(text):
 """ Exercise 9/15 """
 
 """ Exercise 10/15 """
+def censor(text,word):
+    text_list = text.split()
+    result_list = []
+    result_string = ""
+    length = len(word)
+    for a in text_list:
+        if a == word:
+            result_list.append("*"*length)
+        else:
+            result_list.append(a)
+    result_string = ' '.join(str(e) for e in result_list)
+    return result_string
 
 """ Exercise 11/15 """
 def count(sequence,item):
