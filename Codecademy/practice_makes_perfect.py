@@ -75,6 +75,12 @@ def product(x):
     return product
 
 """ Exercise 14/15 """
+def remove_duplicates(numbers):
+    result = []
+    for a in numbers:
+        if a not in result:
+            result.append(a)
+    return list
 
 """ Exercise 15/15 """
 def median(x):
