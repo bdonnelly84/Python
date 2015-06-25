@@ -66,6 +66,14 @@ def count(sequence,item):
     return count
 
 """ Exercise 12/15 """
+def purify(x):
+    result = []
+    for a in x:
+        if a % 2 == 0:
+            result.append(a)
+        else:
+            continue
+    return result
 
 """ Exercise 13/15 """
 def product(x):
