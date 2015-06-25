@@ -1,5 +1,5 @@
 """ These are the functions developed in the Practice Makes Perfect Module @ Codecademy """
-""" Exercises completed thus far: 2/15; 3/15; 4/15; 6/15; 8/15; 11/15; 13/15; 15/15 """
+""" Exercises completed thus far: 2/15; 3/15; 4/15; 6/15; 8/15; 10/15; 11/15; 12/15; 13/15; 14/15; 15/15 """
 
 """ Exercise 2/15 """
 def is_even(x):
