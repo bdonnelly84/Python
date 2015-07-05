@@ -56,7 +56,7 @@ str = 'X-DSPAM-Confidence: 0.4875'
 
 index = str.find(':')
 
-a = str[19:]
+a = str[index+1:]
 b = a.strip()
 
 result = float(b)
