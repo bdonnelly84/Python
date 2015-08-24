@@ -17,20 +17,27 @@ while index >= 0:
 
 """ This program is for Exercise 3 of Chapter 6 """
 
+""" This program is for Exercise 3 of Chapter 6 """
+
 prompt1 = 'Enter your word: '
 prompt2 = 'Enter the letter: '
 	
 word = raw_input(prompt1)
 chosen = raw_input(prompt2)
 
-def count_letter(word,chosen):
-	count=0
-	for letter in word:
-		if chosen == letter:
-			count = count + 1
-	print count
+count = 0
 
-count_letter(word,chosen)
+for letter in word:
+	if chosen == letter:
+		count = count + 1
+
+if count == 0:
+	print chosen,'does not appear in',word
+elif count == 1:
+	print chosen,'appears once in',word
+else:
+	count > 1
+	print chosen,'appears',count,'times in',word
 
 """ This program is for Exercise 4 of Chapter 6 """
 
